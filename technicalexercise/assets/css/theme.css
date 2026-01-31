@@ -1,0 +1,47 @@
+/* Featured Cases Page */
+
+.featured-cases {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+.featured-case {
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background: #ffffff;
+}
+
+.featured-case__title {
+    margin: 0 0 10px;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.featured-case__type,
+.featured-case__settlement {
+    margin: 4px 0;
+    font-size: 15px;
+    color: #555;
+}
+
+.featured-case__type::before {
+    content: "Case Type: ";
+    font-weight: 600;
+    color: #222;
+}
+
+.featured-case__settlement::before {
+    content: "Settlement: ";
+    font-weight: 600;
+    color: #222;
+}
+
+.featured-cases__empty {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+    margin-top: 40px;
+}
